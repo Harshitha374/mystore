@@ -1,0 +1,35 @@
+*{
+    margin: 0;  
+  }
+  .container {
+      margin: 0;
+  }
+  .header {
+      padding: 10px;
+      background-color:pink;
+      display: flex;
+      justify-content: space-between;
+  }
+  .productBlock{
+      background-color: silver;
+  }
+  .row {
+      display: flex;
+      justify-content: center;
+  }
+  .box {
+      background-color: white;
+      margin: 10px;
+      border-radius: 20px;
+      padding: 10px;
+  }
+  .cartBlock {
+      background-color: silver;
+      width: 300px;
+      position: fixed;
+      top:0px;
+      left:100%;
+      height: 100%;
+      padding: 20px;
+      transition: 2s;
+  }
