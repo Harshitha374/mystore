@@ -15,7 +15,9 @@
   }
   .row {
       display: flex;
+      flex-wrap: wrap;
       justify-content: center;
+  
   }
   .box {
       background-color: white;
@@ -32,4 +34,35 @@
       height: 100%;
       padding: 20px;
       transition: 2s;
+  }
+  
+  .login {
+      border: 1px solid black;
+      text-align: center;
+      padding: 100px;
+      margin: 10px;
+    
+  }
+  
+  .login input,button{
+      margin: 10px;
+      padding: 10px;
+  }
+  
+  .registration {
+      border: 1px solid black;
+      text-align: center;
+      padding: 100px;
+      margin: 10px;
+  
+  }
+  
+  .registration input,button{
+      margin: 10px;
+      padding: 10px;
+  }
+  
+  .menu li {
+      display: inline-block;
+      padding: 5px;
   }
