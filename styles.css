@@ -1,68 +1,76 @@
-*{
-    margin: 0;  
-  }
-  .container {
-      margin: 0;
-  }
-  .header {
-      padding: 10px;
-      background-color:pink;
-      display: flex;
-      justify-content: space-between;
-  }
-  .productBlock{
-      background-color: silver;
-  }
-  .row {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-  
-  }
-  .box {
-      background-color: white;
-      margin: 10px;
-      border-radius: 20px;
-      padding: 10px;
-  }
-  .cartBlock {
-      background-color: silver;
-      width: 300px;
-      position: fixed;
-      top:0px;
-      left:100%;
-      height: 100%;
-      padding: 20px;
-      transition: 2s;
-  }
-  
-  .login {
-      border: 1px solid black;
-      text-align: center;
-      padding: 100px;
-      margin: 10px;
-    
-  }
-  
-  .login input,button{
-      margin: 10px;
-      padding: 10px;
-  }
-  
-  .registration {
-      border: 1px solid black;
-      text-align: center;
-      padding: 100px;
-      margin: 10px;
-  
-  }
-  
-  .registration input,button{
-      margin: 10px;
-      padding: 10px;
-  }
-  
-  .menu li {
-      display: inline-block;
-      padding: 5px;
-  }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu li {
+  list-style: none;
+  display: inline;
+  margin: 0 15px;
+  cursor: pointer;
+  color: white;
+}
+
+.login, .registration {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.login h2, .registration h2 {
+  text-align: center;
+}
+
+input {
+  width: 95%;
+  padding: 10px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 15px;
+  width: 200px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
